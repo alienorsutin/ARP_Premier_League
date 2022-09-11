@@ -1,0 +1,53 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/AlienOrSutin/Desktop/ARP/Stata Commands ARP.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}17 Aug 2022, 15:32:44
+
+{com}. kwallis Gls, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 6804.00 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 3464.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 7877.00 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:92.231}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0001}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:94.740}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0001}
+
+{com}. kwallis by(Pos)
+{err}factor-variable and time-series operators not allowed
+{txt}{search r(101), local:r(101);}
+
+{com}. kwallis ,by(Pos)
+{err}varlist required
+{txt}{search r(100), local:r(100);}
+
+{com}. kwallis varlist ,by(Pos)
+{err}variable {bf}varlist{sf} not found
+{txt}{search r(111), local:r(111);}
+
+{com}. kwallis var, by (Pos)
+{err}variable {bf}var{sf} not found
+{txt}{search r(111), local:r(111);}
+
+{com}. kwallis Age-MinutesPlayed, by (Pos)
+{err}too many variables specified
+{txt}{search r(103), local:r(103);}
+
+{com}. save "/Users/AlienOrSutin/Desktop/ARP/Stata File.dta", replace
+{txt}{p 0 4 2}
+file {bf}
+/Users/AlienOrSutin/Desktop/ARP/Stata File.dta{rm}
+saved
+{p_end}
+
+{com}. exit
