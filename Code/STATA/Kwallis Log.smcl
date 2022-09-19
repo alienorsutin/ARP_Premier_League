@@ -1,0 +1,303 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/AlienOrSutin/Desktop/ARP/Kwallis Log.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}19 Sep 2022, 15:47:36
+
+{com}. kwallis MinutesPlayed, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 5648.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 6958.50 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 5538.00 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:2.433}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.2963}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:2.433}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.2963}
+
+{com}. kwallis SoT, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7000.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 3411.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 7733.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:90.842}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0001}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:91.100}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0001}
+
+{com}. kwallis GxG, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 6122.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 6990.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 5032.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:0.767}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.6814}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:0.768}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.6811}
+
+{com}. kwallis GCA, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7382.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 5009.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 5753.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:21.802}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0001}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:21.945}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0001}
+
+{com}. kwallis Assists, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7328.00 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 5258.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 5559.00 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:16.571}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0003}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:17.054}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0002}
+
+{com}. kwallis KP, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7309.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 5540.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 5295.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:12.382}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0020}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:12.393}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0020}
+
+{com}. kwallis PPA, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7213.00 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 6649.50 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 4282.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:10.806}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0045}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:10.816}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0045}
+
+{com}. kwallis SCA, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7294.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 5157.50 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 5693.00 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:18.199}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0001}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:18.205}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0001}
+
+{com}. kwallis PressuresSucc, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 6484.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 6513.50 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 5147.00 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:0.596}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.7422}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:0.596}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.7422}
+
+{com}. kwallis MistakeToGoal, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 5596.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 7756.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 4792.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:8.590}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0136}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:15.925}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0003}
+
+{com}. kwallis DN, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 6072.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 7015.50 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 5057.00 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:0.838}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.6575}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:0.839}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.6575}
+
+{com}. kwallis CarryPrgDist, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 6888.00 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 7262.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 3995.00 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:13.436}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0012}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:13.436}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0012}
+
+{com}. kwallis CarriesFinalThird, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7151.00 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 6817.50 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 4176.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:11.572}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0031}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:11.578}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0031}
+
+{com}. kwallis Carryintobox, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7488.00 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 4439.50 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 6217.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:37.759}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0001}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:37.848}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0001}
+
+{com}. kwallis GCADrib, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 6157.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 5706.00 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 6281.50 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:10.906}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0043}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:18.806}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0001}
+
+{com}. kwallis SCADrib, by(Pos)
+
+{txt}Kruskal–Wallis equality-of-populations rank test
+
+  {c TLC}{hline 10}{c TT}{hline 5}{c TT}{hline 10}{c TRC}
+  {c |} {res}     Pos {txt}{c |} {res}Obs {txt}{c |} {res}Rank sum {txt}{c |}
+  {c LT}{hline 10}{c +}{hline 5}{c +}{hline 10}{c RT}
+  {c |} {res}     CAM {txt}{c |} {res} 65 {txt}{c |} {res} 7022.50 {txt}{c |}
+  {c |} {res}      FB {txt}{c |} {res} 70 {txt}{c |} {res} 4439.50 {txt}{c |}
+  {c |} {res}Strikers {txt}{c |} {res} 55 {txt}{c |} {res} 6683.00 {txt}{c |}
+  {c BLC}{hline 10}{c BT}{hline 5}{c BT}{hline 10}{c BRC}
+
+  chi2(2) = {res}{ralign 6:39.501}
+{txt}{ralign 9:Prob} = {res}{ralign 6:0.0001}
+
+{txt}  chi2(2) with ties = {res}{ralign 6:40.467}
+{txt}{ralign 19:Prob} = {res}{ralign 6:0.0001}
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/AlienOrSutin/Desktop/ARP/Kwallis Log.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}19 Sep 2022, 15:53:48
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
